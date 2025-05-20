@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "What's up?", "Yo", "Greetings", "Hey there"],
+      "responses": ["Hi! I'm your Dream Interpreter. Tell me what you dreamed about.", "Hello there! What did you see in your dream?", "Hey! I'm here to help you understand your dream."],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk to you later", "Quit", "Exit", "I'm done"],
+      "responses": ["Sweet dreams!", "Goodbye! Hope your dreams are magical.", "Take care!", "Until next time, sleep well."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_snake",
+      "patterns": ["I saw a snake in my dream", "There was a snake", "Snake bit me in dream", "I dreamed of a snake", "Snake appeared in my sleep"],
+      "responses": ["Seeing a snake in a dream can represent hidden fears, transformation, or subconscious warnings."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_falling",
+      "patterns": ["I was falling", "I had a dream I was falling", "Falling dream", "I fell in my dream", "I dropped from somewhere in my dream"],
+      "responses": ["Falling in dreams often reflects a sense of loss of control, insecurity, or fear of failure."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_flying",
+      "patterns": ["I was flying", "Flying in dream", "I had a flying dream", "I flew over the city", "I was soaring in the air"],
+      "responses": ["Flying dreams often symbolize freedom, ambition, or a desire to escape from something."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_teeth",
+      "patterns": ["I lost my teeth in my dream", "My teeth were falling out", "Teeth dream", "I dreamed my teeth broke"],
+      "responses": ["Dreams about teeth falling out often relate to anxiety, appearance, or communication issues."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_chased",
+      "patterns": ["I was being chased", "Someone was chasing me", "Chased by a person in my dream", "A monster chased me", "Running from something in a dream"],
+      "responses": ["Being chased in a dream often means you're avoiding a situation that you're afraid to confront."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_death",
+      "patterns": ["I dreamed of death", "Someone died in my dream", "I died in my dream", "Death appeared in my dream"],
+      "responses": ["Dreams of death often symbolize transformation, endings, or major life changes — not literal death."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_water",
+      "patterns": ["I saw water in my dream", "There was an ocean", "I was swimming", "I drowned in my dream"],
+      "responses": ["Water in dreams often relates to emotions, intuition, and the subconscious. Calm water means peace, while turbulent water may signal emotional distress."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_exams",
+      "patterns": ["I failed a test", "Exam dream", "I was taking an exam", "I was unprepared for a test"],
+      "responses": ["Exam dreams often reflect self-evaluation, fear of failure, or being unprepared for real-life challenges."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_baby",
+      "patterns": ["I dreamed of a baby", "I had a baby in my dream", "I saw a child in my dream", "There was a newborn in my dream"],
+      "responses": ["Babies in dreams can represent new beginnings, vulnerability, or a desire for care and nurturing."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_unknown",
+      "patterns": ["What does my dream mean?", "I had a strange dream", "I don't know what my dream means", "Can you interpret my dream?", "Tell me the meaning of my dream"],
+      "responses": ["Try describing some details from your dream. I'll try to help interpret it!", "Tell me what you remember from your dream, and I’ll do my best to explain it."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_naked",
+      "patterns": ["I was naked in my dream", "I dreamed I was naked", "No clothes in my dream", "I was exposed in my dream"],
+      "responses": ["Dreams of being naked often symbolize vulnerability, shame, or fear of being exposed."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_lost",
+      "patterns": ["I was lost in my dream", "I couldn’t find my way", "Lost in a dream", "I was wandering in my dream"],
+      "responses": ["Being lost in a dream often reflects confusion, lack of direction, or uncertainty in your waking life."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_fire",
+      "patterns": ["I saw fire in my dream", "There was a fire", "Fire in my dream", "I dreamed of flames"],
+      "responses": ["Fire in dreams can symbolize passion, transformation, or destruction, depending on the context."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_being_late",
+      "patterns": ["I was late in my dream", "I missed a deadline", "Late for something in my dream", "I couldn’t get there on time"],
+      "responses": ["Dreams about being late often reflect stress, fear of missing opportunities, or feeling unprepared."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_animals",
+      "patterns": ["I saw animals in my dream", "There were animals", "I dreamed of a dog", "Animals appeared in my dream"],
+      "responses": ["Animals in dreams often represent instincts, emotions, or specific traits associated with the animal."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_house",
+      "patterns": ["I was in a house in my dream", "I dreamed of a house", "I saw a room in my dream", "My dream was in a home"],
+      "responses": ["A house in dreams often symbolizes the self, with different rooms representing aspects of your life or psyche."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_travel",
+      "patterns": ["I was traveling in my dream", "I dreamed of a journey", "I was on a trip", "Traveling somewhere in my dream"],
+      "responses": ["Travel dreams often reflect a desire for change, exploration, or progress in your life’s journey."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_fighting",
+      "patterns": ["I was fighting in my dream", "I had a fight in my dream", "Fighting someone in my dream", "I was in a battle"],
+      "responses": ["Fighting in dreams often symbolizes inner conflict, stress, or unresolved issues with someone."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_loved_one",
+      "patterns": ["I dreamed of my partner", "My mom was in my dream", "I saw a loved one", "My friend appeared in my dream"],
+      "responses": ["Dreams about loved ones often reflect your emotions, relationships, or unresolved feelings toward them."],
+      "context_set": ""
+    },
+    {
+      "tag": "dream_darkness",
+      "patterns": ["It was dark in my dream", "I was in darkness", "I couldn’t see in my dream", "Dreamed of a dark place"],
+      "responses": ["Darkness in dreams often symbolizes fear, the unknown, or feeling lost in some aspect of your life."],
+      "context_set": ""
+    }
+  ]
+}
